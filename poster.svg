@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <title>Night Bloom — speculative editable techno poster concept</title>
+  <desc>Independent concept based on a public design brief. All text remains editable. Event name, location and lineup are placeholders.</desc>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.25" fill="#22231f" opacity=".35"/>
+    </pattern>
+    <pattern id="scan" width="5" height="9" patternUnits="userSpaceOnUse">
+      <rect width="5" height="2" fill="#191a18" opacity=".15"/>
+    </pattern>
+    <filter id="rough" x="-15%" y="-15%" width="130%" height="130%">
+      <feTurbulence type="fractalNoise" baseFrequency=".48" numOctaves="3" seed="8" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+      <feComponentTransfer in="mono" result="flecks">
+        <feFuncA type="linear" slope=".26" intercept="-.08"/>
+      </feComponentTransfer>
+      <feBlend in="SourceGraphic" in2="flecks" mode="multiply"/>
+    </filter>
+    <clipPath id="page"><rect width="1080" height="1350"/></clipPath>
+  </defs>
+  <g clip-path="url(#page)">
+    <g id="paper-and-copy-texture">
+      <rect width="1080" height="1350" fill="#d7d2c5"/>
+      <rect width="1080" height="1350" fill="url(#dots)"/>
+      <rect x="16" y="15" width="1048" height="1320" fill="none" stroke="#1a1c19" stroke-width="3"/>
+      <path d="M-15 108 L1100 81 M-20 116 L1090 93 M-10 124 L1090 104" stroke="#171917" stroke-width="2" opacity=".43"/>
+      <path d="M13 1235 L1090 1210 M9 1242 L1090 1221" stroke="#171917" stroke-width="2" opacity=".5"/>
+      <path d="M51 0 L35 1350 M64 0 L46 1350 M1043 0 L1056 1350" stroke="#171917" stroke-width="2" opacity=".22"/>
+    </g>
+    <g id="acid-shapes">
+      <path d="M-130 392 C-44 264 204 165 333 220 C442 263 388 352 487 385 C569 412 723 301 864 354 C1003 408 1181 590 1078 717 C964 855 672 840 487 753 C289 660 159 758 33 670 C-99 581 -196 501 -130 392Z" fill="#e8ff18" stroke="#171917" stroke-width="9"/>
+      <path d="M740 201 C902 163 978 195 1089 111 L1089 353 C965 321 939 391 827 352 C754 327 702 291 740 201Z" fill="#ff4daa" stroke="#171917" stroke-width="8"/>
+      <path d="M62 614 C143 570 258 614 301 682 C351 760 245 866 159 871 C66 876 19 818 62 744 C99 683 -9 663 62 614Z" fill="#ff4daa" stroke="#171917" stroke-width="8"/>
+      <path d="M843 663 C952 603 1113 656 1137 751 C1161 847 1072 918 969 893 C888 874 915 783 843 761 C784 742 779 699 843 663Z" fill="#ff6939" stroke="#171917" stroke-width="8"/>
+      <circle cx="900" cy="526" r="114" fill="#d7d2c5" stroke="#171917" stroke-width="8"/>
+      <circle cx="900" cy="526" r="69" fill="#ff4daa" stroke="#171917" stroke-width="7"/>
+      <circle cx="900" cy="526" r="22" fill="#171917"/>
+      <path d="M-23 549 C198 354 353 424 459 351 M492 209 C582 317 624 320 733 269 M722 733 C805 687 846 653 1013 649" fill="none" stroke="#171917" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+      <path d="M677 303 C784 299 829 262 889 204 M669 314 C795 314 822 290 903 230" fill="none" stroke="#d7d2c5" stroke-width="4"/>
+      <path d="M49 804 L205 762 M26 824 L233 772 M38 850 L190 815" stroke="#171917" stroke-width="4" opacity=".55"/>
+    </g>
+    <g id="top-labels" font-family="Arial, Helvetica, sans-serif" fill="#171917">
+      <rect x="52" y="50" width="670" height="58" fill="#171917"/>
+      <text x="66" y="88" fill="#d7d2c5" font-size="32" font-weight="900" letter-spacing="3">FLINTA+ / TECHNO / NYC</text>
+      <text x="769" y="79" font-size="23" font-weight="900" letter-spacing="4">NO. 001 — NOV</text>
+      <path d="M62 140 H1008" stroke="#171917" stroke-width="5"/>
+      <text x="67" y="181" font-size="22" font-weight="900" letter-spacing="6">SPECULATIVE EVENT POSTER</text>
+      <text x="885" y="181" font-size="22" font-weight="900">✦ ✦ ✦</text>
+    </g>
+    <g id="main-headline" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" letter-spacing="-16">
+      <text x="57" y="459" font-size="208" fill="#ff4daa" stroke="#171917" stroke-width="3">NIGHT</text>
+      <text x="43" y="447" font-size="208" fill="#171917">NIGHT</text>
+      <text x="59" y="640" font-size="190" fill="#d7d2c5" stroke="#171917" stroke-width="13" paint-order="stroke">BLOOM</text>
+      <text x="59" y="640" font-size="190" fill="#d7d2c5">BLOOM</text>
+    </g>
+    <g id="editable-event-details" font-family="Arial, Helvetica, sans-serif" fill="#171917">
+      <g transform="rotate(-3 550 777)">
+        <rect x="75" y="711" width="818" height="113" fill="#171917"/>
+        <text x="96" y="775" fill="#e8ff18" font-size="48" font-weight="900" letter-spacing="3">A QUEER DANCE FLOOR</text>
+        <text x="99" y="805" fill="#d7d2c5" font-size="19" font-weight="800" letter-spacing="5">PLAYFUL / GRITTY / OPEN ALL NIGHT</text>
+      </g>
+      <path d="M65 886 L1018 864" stroke="#171917" stroke-width="6"/>
+      <text x="70" y="938" font-size="27" font-weight="900" letter-spacing="3">NOVEMBER 2026</text>
+      <text x="71" y="985" font-size="27" font-weight="900" letter-spacing="3">NEW YORK CITY · VENUE TBA</text>
+      <text x="70" y="1031" font-size="21" font-weight="800" letter-spacing="4">DATE / TIME / LOCATION ARE PLACEHOLDERS</text>
+    </g>
+    <g id="editable-lineup-panel" font-family="Arial, Helvetica, sans-serif">
+      <path d="M46 1062 L1028 1048 L1042 1208 L53 1227Z" fill="#e8ff18" stroke="#171917" stroke-width="7"/>
+      <text x="78" y="1116" fill="#171917" font-size="30" font-weight="900" letter-spacing="5">LINEUP / UPDATE THIS LIVE TEXT</text>
+      <text x="74" y="1194" fill="#171917" font-size="64" font-weight="900" letter-spacing="-2">DJ 01  /  DJ 02  /  DJ 03</text>
+    </g>
+    <g id="footer" font-family="Arial, Helvetica, sans-serif" fill="#171917">
+      <text x="62" y="1292" font-size="26" font-weight="900" letter-spacing="2">MOVE TOGETHER / MAKE SPACE</text>
+      <text x="853" y="1292" font-size="24" font-weight="900" letter-spacing="3">01 / 01</text>
+      <rect x="0" y="1324" width="1080" height="26" fill="url(#scan)"/>
+    </g>
+    <path d="M273 256 L310 265 M258 269 L330 286 M676 692 L768 684 M650 704 L795 696 M570 83 L598 68 M580 95 L612 77" stroke="#171917" stroke-width="4" opacity=".48"/>
+  </g>
+</svg>
